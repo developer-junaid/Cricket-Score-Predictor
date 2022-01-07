@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import plotly.express as px
 
 model = st.sidebar.selectbox("Select Model", ("Random Forest", "Decision Tree", "SVM"))
 
